@@ -29,11 +29,11 @@ dic = {}
 
 # for key in n_s_dic:
 #     dic[key] = n_s_dic[key]
-for key in s_dic:
-    dic[key] = s_dic[key]
+# for key in s_dic:
+#     dic[key] = s_dic[key]
 
 
-th_dic = {} if copy_type == 1 else copy(s_dic)
+# th_dic = {} if copy_type == 1 else copy(s_dic)
 
 def tk_run(title,num=None):
     for pro in th_dic:
